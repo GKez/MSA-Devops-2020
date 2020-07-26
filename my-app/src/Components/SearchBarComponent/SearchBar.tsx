@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import { Grid, TextField, Button } from '@material-ui/core';
 import './SearchBar.css';
-//import { KeyboardDatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
-//import DateFnsUtils from '@date-io/date-fns';
 import { IUserInput } from '../../Common/Interfaces'
 
 interface ISearchBarProps{
