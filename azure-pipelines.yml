@@ -16,7 +16,7 @@ variables:
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'echo REACT_APP-API-KEY = $(apikey) > $(rootDir)/.env'
+    script: 'echo REACT_APP-API-KEY = $(APIKEY) > $(rootDir)/.env'
   displayName: 'Setting environment variables'
 - task: NodeTool@0
   inputs:
